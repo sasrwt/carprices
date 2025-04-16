@@ -20,7 +20,7 @@ def load_feature_importance(file_path):
 final_fi = load_feature_importance("feature_importance.xlsx")  # Replace with your file path
 
 # Sidebar setup
-image_sidebar = Image.open('Pic 1.png')  # Replace with your image file
+image_sidebar = Image.open('pic 1.png')  # Replace with your image file
 st.sidebar.image(image_sidebar, use_column_width=True)
 st.sidebar.header('Vehicle Features')
 
@@ -54,7 +54,7 @@ def get_user_input():
     return user_data
 
 # Top banner
-image_banner = Image.open('Pic 2.png')  # Replace with your image file
+image_banner = Image.open('pic 2.png')  # Replace with your image file
 st.image(image_banner, use_column_width=True)
 
 # Centered title
