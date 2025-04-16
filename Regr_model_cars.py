@@ -55,7 +55,7 @@ def get_user_input():
 
 # Top banner
 image_banner = Image.open('pic2.png')  # Replace with your image file
-st.image(image_banner, uuse_container_width=True)
+st.image(image_banner, use_container_width=True)
 
 # Centered title
 st.markdown("<h1 style='text-align: center;'>Vehicle Price Prediction App</h1>", unsafe_allow_html=True)
