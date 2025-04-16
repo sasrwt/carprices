@@ -21,7 +21,7 @@ final_fi = load_feature_importance("feature_importance.xlsx")  # Replace with yo
 
 # Sidebar setup
 image_sidebar = Image.open('pic1.png')  # Replace with your image file
-st.sidebar.image(image_sidebar, use_column_width=True)
+st.sidebar.image(image_sidebar, use_container_width=True)
 st.sidebar.header('Vehicle Features')
 
 # Feature selection on sidebar
@@ -55,7 +55,7 @@ def get_user_input():
 
 # Top banner
 image_banner = Image.open('pic2.png')  # Replace with your image file
-st.image(image_banner, use_column_width=True)
+st.image(image_banner, uuse_container_width=True)
 
 # Centered title
 st.markdown("<h1 style='text-align: center;'>Vehicle Price Prediction App</h1>", unsafe_allow_html=True)
